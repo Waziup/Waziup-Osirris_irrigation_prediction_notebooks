@@ -1,0 +1,215 @@
+     index  rolling_mean_grouped_soil  gradient
+0    129.0                   8.158366 -0.076589
+1    130.0                   8.070533 -0.099110
+2    131.0                   7.960147 -0.121158
+3    132.0                   7.828217 -0.141726
+4    133.0                   7.676695 -0.160056
+..     ...                        ...       ...
+85  3865.0                   3.069972 -0.099291
+86  3866.0                   2.973783 -0.092967
+87  3867.0                   2.884039 -0.086428
+88  3868.0                   2.800927 -0.079812
+89  3869.0                   2.724416 -0.073787
+
+[88 rows x 3 columns]
+There are  4  dataframes now.
+     grouped_soil  grouped_resistance  ...  rolling_mean_grouped_soil  gradient
+149      0.452082            0.589297  ...                    4.90661 -0.074266
+
+[1 rows x 18 columns]
+2002
+      grouped_soil  grouped_resistance  ...  rolling_mean_grouped_soil  gradient
+2172       0.51156            0.593879  ...                   5.303028  -0.08087
+
+[1 rows x 18 columns]
+1090
+      grouped_soil  grouped_resistance  ...  rolling_mean_grouped_soil  gradient
+3302      0.191302            0.180998  ...                    3.17129 -0.073473
+
+[1 rows x 18 columns]
+551
+      grouped_soil  grouped_resistance  ...  rolling_mean_grouped_soil  gradient
+3869        0.1241            0.054014  ...                   2.724416 -0.073787
+
+[1 rows x 18 columns]
+831
+Dataframe:  1
+   orig_index  grouped_soil  ...  rolling_mean_grouped_soil  gradient
+0         222      0.389919  ...                   4.346543       0.0
+
+[1 rows x 19 columns]
+Dataframe:  2
+   orig_index  grouped_soil  ...  rolling_mean_grouped_soil  gradient
+0        2229      0.422136  ...                   4.558992 -0.000337
+
+[1 rows x 19 columns]
+Dataframe:  3
+   orig_index  grouped_soil  ...  rolling_mean_grouped_soil  gradient
+0        3327      0.114852  ...                    2.52163  -0.00044
+
+[1 rows x 19 columns]
+Dataframe:  4
+   orig_index  grouped_soil  ...  rolling_mean_grouped_soil  gradient
+0        3899      0.001011  ...                    1.76345  0.000322
+
+[1 rows x 19 columns]
+This is the 0 part of the data:
+            Test   Test Name  ...                   Setting         Value
+0        Summary  Statistics  ...                                  1907.0
+1        Summary  Statistics  ...                                     0.0
+2        Summary  Statistics  ...                                6.373058
+3        Summary  Statistics  ...                                6.548023
+4        Summary  Statistics  ...                                1.126976
+5        Summary  Statistics  ...                                1.270074
+6        Summary  Statistics  ...                               -1.181966
+7        Summary  Statistics  ...                               -0.318026
+8        Summary  Statistics  ...                                  1882.0
+9    White Noise   Ljung-Box  ...  {'alpha': 0.05, 'K': 24}  43917.339883
+10   White Noise   Ljung-Box  ...  {'alpha': 0.05, 'K': 48}  84032.162764
+11   White Noise   Ljung-Box  ...  {'alpha': 0.05, 'K': 24}           0.0
+12   White Noise   Ljung-Box  ...  {'alpha': 0.05, 'K': 48}           0.0
+13   White Noise   Ljung-Box  ...  {'alpha': 0.05, 'K': 24}         False
+14   White Noise   Ljung-Box  ...  {'alpha': 0.05, 'K': 48}         False
+15  Stationarity         ADF  ...           {'alpha': 0.05}         False
+16  Stationarity         ADF  ...           {'alpha': 0.05}      0.863964
+17  Stationarity         ADF  ...           {'alpha': 0.05}     -0.630398
+18  Stationarity         ADF  ...           {'alpha': 0.05}     -3.433833
+19  Stationarity         ADF  ...           {'alpha': 0.05}     -2.863079
+20  Stationarity         ADF  ...           {'alpha': 0.05}     -2.567589
+21  Stationarity        KPSS  ...           {'alpha': 0.05}         False
+22  Stationarity        KPSS  ...           {'alpha': 0.05}          0.01
+23  Stationarity        KPSS  ...           {'alpha': 0.05}      0.904529
+24  Stationarity        KPSS  ...           {'alpha': 0.05}         0.119
+25  Stationarity        KPSS  ...           {'alpha': 0.05}         0.146
+26  Stationarity        KPSS  ...           {'alpha': 0.05}         0.176
+27  Stationarity        KPSS  ...           {'alpha': 0.05}         0.216
+28     Normality     Shapiro  ...           {'alpha': 0.05}         False
+29     Normality     Shapiro  ...           {'alpha': 0.05}           0.0
+
+[30 rows x 6 columns]
+This is the 1 part of the data:
+            Test   Test Name  ...                   Setting         Value
+0        Summary  Statistics  ...                                   903.0
+1        Summary  Statistics  ...                                     0.0
+2        Summary  Statistics  ...                                5.753146
+3        Summary  Statistics  ...                                5.908506
+4        Summary  Statistics  ...                                0.815238
+5        Summary  Statistics  ...                                0.664612
+6        Summary  Statistics  ...                               -1.449939
+7        Summary  Statistics  ...                                0.065402
+8        Summary  Statistics  ...                                   889.0
+9    White Noise   Ljung-Box  ...  {'alpha': 0.05, 'K': 24}  20252.720046
+10   White Noise   Ljung-Box  ...  {'alpha': 0.05, 'K': 48}   37923.51647
+11   White Noise   Ljung-Box  ...  {'alpha': 0.05, 'K': 24}           0.0
+12   White Noise   Ljung-Box  ...  {'alpha': 0.05, 'K': 48}           0.0
+13   White Noise   Ljung-Box  ...  {'alpha': 0.05, 'K': 24}         False
+14   White Noise   Ljung-Box  ...  {'alpha': 0.05, 'K': 48}         False
+15  Stationarity         ADF  ...           {'alpha': 0.05}         False
+16  Stationarity         ADF  ...           {'alpha': 0.05}       0.93301
+17  Stationarity         ADF  ...           {'alpha': 0.05}      -0.24446
+18  Stationarity         ADF  ...           {'alpha': 0.05}     -3.437794
+19  Stationarity         ADF  ...           {'alpha': 0.05}     -2.864826
+20  Stationarity         ADF  ...           {'alpha': 0.05}      -2.56852
+21  Stationarity        KPSS  ...           {'alpha': 0.05}         False
+22  Stationarity        KPSS  ...           {'alpha': 0.05}          0.01
+23  Stationarity        KPSS  ...           {'alpha': 0.05}      0.344343
+24  Stationarity        KPSS  ...           {'alpha': 0.05}         0.119
+25  Stationarity        KPSS  ...           {'alpha': 0.05}         0.146
+26  Stationarity        KPSS  ...           {'alpha': 0.05}         0.176
+27  Stationarity        KPSS  ...           {'alpha': 0.05}         0.216
+28     Normality     Shapiro  ...           {'alpha': 0.05}         False
+29     Normality     Shapiro  ...           {'alpha': 0.05}           0.0
+
+[30 rows x 6 columns]
+This is the 2 part of the data:
+            Test   Test Name  ...                   Setting         Value
+0        Summary  Statistics  ...                                   505.0
+1        Summary  Statistics  ...                                     0.0
+2        Summary  Statistics  ...                                4.217717
+3        Summary  Statistics  ...                                4.496673
+4        Summary  Statistics  ...                                0.678489
+5        Summary  Statistics  ...                                0.460348
+6        Summary  Statistics  ...                                -0.30045
+7        Summary  Statistics  ...                               -0.837477
+8        Summary  Statistics  ...                                   505.0
+9    White Noise   Ljung-Box  ...  {'alpha': 0.05, 'K': 24}   9684.105333
+10   White Noise   Ljung-Box  ...  {'alpha': 0.05, 'K': 48}  15212.646138
+11   White Noise   Ljung-Box  ...  {'alpha': 0.05, 'K': 24}           0.0
+12   White Noise   Ljung-Box  ...  {'alpha': 0.05, 'K': 48}           0.0
+13   White Noise   Ljung-Box  ...  {'alpha': 0.05, 'K': 24}         False
+14   White Noise   Ljung-Box  ...  {'alpha': 0.05, 'K': 48}         False
+15  Stationarity         ADF  ...           {'alpha': 0.05}         False
+16  Stationarity         ADF  ...           {'alpha': 0.05}      0.319629
+17  Stationarity         ADF  ...           {'alpha': 0.05}     -1.926651
+18  Stationarity         ADF  ...           {'alpha': 0.05}     -3.443849
+19  Stationarity         ADF  ...           {'alpha': 0.05}     -2.867493
+20  Stationarity         ADF  ...           {'alpha': 0.05}     -2.569941
+21  Stationarity        KPSS  ...           {'alpha': 0.05}         False
+22  Stationarity        KPSS  ...           {'alpha': 0.05}          0.01
+23  Stationarity        KPSS  ...           {'alpha': 0.05}      0.572398
+24  Stationarity        KPSS  ...           {'alpha': 0.05}         0.119
+25  Stationarity        KPSS  ...           {'alpha': 0.05}         0.146
+26  Stationarity        KPSS  ...           {'alpha': 0.05}         0.176
+27  Stationarity        KPSS  ...           {'alpha': 0.05}         0.216
+28     Normality     Shapiro  ...           {'alpha': 0.05}         False
+29     Normality     Shapiro  ...           {'alpha': 0.05}           0.0
+
+[30 rows x 6 columns]
+This is the 3 part of the data:
+            Test   Test Name  ...                   Setting         Value
+0        Summary  Statistics  ...                                   800.0
+1        Summary  Statistics  ...                                     0.0
+2        Summary  Statistics  ...                                3.424623
+3        Summary  Statistics  ...                                3.511177
+4        Summary  Statistics  ...                                0.762975
+5        Summary  Statistics  ...                                 0.58213
+6        Summary  Statistics  ...                               -0.727517
+7        Summary  Statistics  ...                               -0.083168
+8        Summary  Statistics  ...                                   800.0
+9    White Noise   Ljung-Box  ...  {'alpha': 0.05, 'K': 24}  16071.106797
+10   White Noise   Ljung-Box  ...  {'alpha': 0.05, 'K': 48}  26071.005902
+11   White Noise   Ljung-Box  ...  {'alpha': 0.05, 'K': 24}           0.0
+12   White Noise   Ljung-Box  ...  {'alpha': 0.05, 'K': 48}           0.0
+13   White Noise   Ljung-Box  ...  {'alpha': 0.05, 'K': 24}         False
+14   White Noise   Ljung-Box  ...  {'alpha': 0.05, 'K': 48}         False
+15  Stationarity         ADF  ...           {'alpha': 0.05}         False
+16  Stationarity         ADF  ...           {'alpha': 0.05}      0.658745
+17  Stationarity         ADF  ...           {'alpha': 0.05}     -1.234129
+18  Stationarity         ADF  ...           {'alpha': 0.05}     -3.438783
+19  Stationarity         ADF  ...           {'alpha': 0.05}     -2.865262
+20  Stationarity         ADF  ...           {'alpha': 0.05}     -2.568752
+21  Stationarity        KPSS  ...           {'alpha': 0.05}          True
+22  Stationarity        KPSS  ...           {'alpha': 0.05}           0.1
+23  Stationarity        KPSS  ...           {'alpha': 0.05}      0.090191
+24  Stationarity        KPSS  ...           {'alpha': 0.05}         0.119
+25  Stationarity        KPSS  ...           {'alpha': 0.05}         0.146
+26  Stationarity        KPSS  ...           {'alpha': 0.05}         0.176
+27  Stationarity        KPSS  ...           {'alpha': 0.05}         0.216
+28     Normality     Shapiro  ...           {'alpha': 0.05}         False
+29     Normality     Shapiro  ...           {'alpha': 0.05}           0.0
+
+[30 rows x 6 columns]
+
+ The best model, for cut_sub_dfs[ 0 ] is:
+BaseCdsDtForecaster(fe_target_rr=[WindowSummarizer(lag_feature={'lag': [2, 1]},
+                                                   n_jobs=1)],
+                    regressor=LinearRegression(n_jobs=-1), sp=2,
+                    window_length=2)
+
+ The best model, for cut_sub_dfs[ 1 ] is:
+BaseCdsDtForecaster(fe_target_rr=[WindowSummarizer(lag_feature={'lag': [2, 1]},
+                                                   n_jobs=1)],
+                    regressor=LinearRegression(n_jobs=-1), sp=2,
+                    window_length=2)
+
+ The best model, for cut_sub_dfs[ 2 ] is:
+BaseCdsDtForecaster(fe_target_rr=[WindowSummarizer(lag_feature={'lag': [2, 1]},
+                                                   n_jobs=1)],
+                    regressor=LinearRegression(n_jobs=-1), sp=2,
+                    window_length=2)
+
+ The best model, for cut_sub_dfs[ 3 ] is:
+BaseCdsDtForecaster(fe_target_rr=[WindowSummarizer(lag_feature={'lag': [2, 1]},
+                                                   n_jobs=1)],
+                    regressor=LinearRegression(n_jobs=-1), sp=2,
+                    window_length=2)

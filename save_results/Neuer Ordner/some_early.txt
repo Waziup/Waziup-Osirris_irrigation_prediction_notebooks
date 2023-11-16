@@ -1,0 +1,126 @@
+30min:
+
+This is for Dataframe: 1
+The best model is: lightgbm.sklearn
+Maximum R2 Value: -0.97
+This is the rest of the metrics: mae 0.79 rmse 0.98 mpe 60.24
+Index of Maximum R2 Value: 10 
+
+This is for Dataframe: 2
+The best model is: xgboost.sklearn
+Maximum R2 Value: -0.04
+This is the rest of the metrics: mae 1.08 rmse 1.34 mpe 43.36
+Index of Maximum R2 Value: 5 
+
+This is for Dataframe: 3
+The best model is: catboost.core
+Maximum R2 Value: -3.1
+This is the rest of the metrics: mae 2.19 rmse 2.49 mpe 117.75
+Index of Maximum R2 Value: 4 
+
+This is for Dataframe: 4
+The best model is: catboost.core
+Maximum R2 Value: -2.35
+This is the rest of the metrics: mae 0.79 rmse 0.9 mpe 23.86
+Index of Maximum R2 Value: 7 
+
+This is for Dataframe: 5
+The best model is: sklearn.tree._classes
+Maximum R2 Value: 0.02
+This is the rest of the metrics: mae 0.69 rmse 0.81 mpe 21.66
+Index of Maximum R2 Value: 7 
+
+This is for Dataframe: 6
+The best model is: catboost.core
+Maximum R2 Value: -2.25
+This is the rest of the metrics: mae 0.93 rmse 1.13 mpe 30.61
+Index of Maximum R2 Value: 6 
+
+This is for Dataframe: 7
+The best model is: catboost.core
+Maximum R2 Value: -0.22
+This is the rest of the metrics: mae 0.85 rmse 1.02 mpe 27.08
+Index of Maximum R2 Value: 5 
+
+
+
+
+
+30min,transform_target=True:
+
+This is for Dataframe: 1
+The best model is: catboost.core
+Maximum R2 Value: -0.87
+This is the rest of the metrics: mae 0.76 rmse 0.96 mpe 57.4
+Index of Maximum R2 Value: 3 
+
+This is for Dataframe: 2
+The best model is: sklearn.ensemble._gb
+Maximum R2 Value: -0.04
+This is the rest of the metrics: mae 1.08 rmse 1.34 mpe 43.35
+Index of Maximum R2 Value: 2 
+
+This is for Dataframe: 3
+The best model is: catboost.core
+Maximum R2 Value: -2.95
+This is the rest of the metrics: mae 2.14 rmse 2.44 mpe 115.39
+Index of Maximum R2 Value: 4 
+
+This is for Dataframe: 4
+The best model is: catboost.core
+Maximum R2 Value: -2.77
+This is the rest of the metrics: mae 0.85 rmse 0.96 mpe 25.68
+Index of Maximum R2 Value: 5 
+
+This is for Dataframe: 5
+The best model is: sklearn.tree._classes
+Maximum R2 Value: 0.02
+This is the rest of the metrics: mae 0.69 rmse 0.81 mpe 21.66
+Index of Maximum R2 Value: 7 
+
+This is for Dataframe: 6
+The best model is: sklearn.neighbors._regression
+Maximum R2 Value: -1.33
+This is the rest of the metrics: mae 0.76 rmse 0.95 mpe 24.76
+Index of Maximum R2 Value: 11 
+
+This is for Dataframe: 7
+The best model is: sklearn.linear_model._coordinate_descent
+Maximum R2 Value: -0.13
+This is the rest of the metrics: mae 1.05 rmse 1.22 mpe 38.07
+Index of Maximum R2 Value: 11
+
+
+
+
+10min, feature_selection='boruta':
+
+This is for Dataframe: 1
+The best model is: sklearn.linear_model._ridge
+Maximum R2 Value: -0.97
+This is the rest of the metrics: mae 0.76 rmse 0.95 mpe 55.66
+Index of Maximum R2 Value: 11 
+
+This is for Dataframe: 2
+The best model is: sklearn.neighbors._regression
+Maximum R2 Value: -1.01
+This is the rest of the metrics: mae 1.49 rmse 1.73 mpe 65.11
+Index of Maximum R2 Value: 11 
+
+This is for Dataframe: 3
+The best model is: catboost.core
+Maximum R2 Value: -0.69
+This is the rest of the metrics: mae 0.45 rmse 0.54 mpe 11.69
+Index of Maximum R2 Value: 8 
+
+This is for Dataframe: 4
+The best model is: sklearn.neighbors._regression
+Maximum R2 Value: -1.7
+This is the rest of the metrics: mae 0.85 rmse 1.01 mpe 26.36
+Index of Maximum R2 Value: 11 
+
+This is for Dataframe: 5
+The best model is: catboost.core
+Maximum R2 Value: 0.31
+This is the rest of the metrics: mae 0.51 rmse 0.59 mpe 12.67
+Index of Maximum R2 Value: 3 
